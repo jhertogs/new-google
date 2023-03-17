@@ -1,4 +1,4 @@
-/* 
+/*
 * {
     border-style: solid;
     border-color: red;
@@ -14,7 +14,30 @@ body {
 .links {
     color: rgb(155, 155, 155);
     list-style-type: none;
+    
 }
+
+.links2 {
+    color: rgb(155, 155, 155);
+    list-style-type: none;
+    background-color: rgb(16, 16, 16);
+    width: 1255px;
+    height: 48px;
+    margin-bottom: 2px;
+    text-align: left;
+    
+    
+    
+}
+
+.links3 {
+    color: rgb(155, 155, 155);
+    list-style-type: none;
+    background-color: rgb(16, 16, 16);
+    width: 1255px;
+    height: 48px;
+}
+
 
 h1 {
     color:white;
@@ -38,4 +61,43 @@ h1 {
 .container {
     display: flex;
     justify-content: space-between;
+    height:45px
+}
+
+.google {
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top:0px;
+}
+
+.searchbar {
+    text-align: center;
+    
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.search {
+    width:450px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.mid {
+    display: flex;
+}
+
+.footer {
+    display:flex;
+    flex-direction: column;
+}
+
+
+
+.main {
+    margin-bottom: 300px;
 }
