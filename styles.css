@@ -14,13 +14,17 @@ body {
     
 }
 
-.container {
+h1 {
+    color:white;
+}
+
+.nav {
     display: flex;
     justify-content: space-between;
     
 }
 
-.container1 {
+.ul1 {
     display: flex;
     
     justify-content: space-between;
@@ -28,41 +32,17 @@ body {
     height: 0px;
 }
 
-.container2 {
-    display: flex;
-    height: 0px;
-    width: 250px;
-    justify-content: space-between;
-}
-
-
-
 .links {
     color: rgb(155, 155, 155);
     list-style-type: none;
     
 }
 
-.links2 {
-    color: rgb(155, 155, 155);
-    list-style-type: none;
-    background-color: rgb(16, 16, 16);
-    width: 1255px;
-    height: 48px;
-    margin-bottom: 2px;
-    text-align: left;
-    
-    
-    
-}
-
-.links3 {
-    color: rgb(155, 155, 155);
-    list-style-type: none;
-    background-color: rgb(16, 16, 16);
-    width: 1255px;
-    height: 48px;
-    justify-content: space-around;
+.ul2 {
+    display: flex;
+    height: 0px;
+    width: 250px;
+    justify-content: space-between;
 }
 
 .button1 {
@@ -77,18 +57,17 @@ body {
     border-style:none
 }
 
-h1 {
-    color:white;
+.main {
+    margin-bottom: auto;
 }
 
-
-.google {
-    font-size: 100px;
-    text-align: center;
-    margin-bottom: 10px;
-    margin-top:0px;
-    font-family: 'Golos Text', sans-serif;
-
+.img {
+    width: 272px;
+    height: 92px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
 }
 
 .searchbar {
@@ -121,34 +100,50 @@ h1 {
     color: white;
 }
 
-
-.mid {
-    display: flex;
-}
-
 .footer {
     display:flex;
     flex-direction: column;
     
 }
+
+.links2 {
+    color: rgb(155, 155, 155);
+    list-style-type: none;
+    background-color: rgb(16, 16, 16);
+    width: 1255px;
+    height: 48px;
+    margin-bottom: 2px;
+    text-align: left;
+    
+    
+    
+}
+
+.links3 {
+    color: rgb(155, 155, 155);
+    list-style-type: none;
+    background-color: rgb(16, 16, 16);
+    width: 1255px;
+    height: 48px;
+    justify-content: space-around;
+}
+
 .footer2 {
     display: flex;
     justify-content: space-around;
 }
 
 
-.main {
-    margin-bottom: auto;
-}
 
-.img {
-    width: 272px;
-    height: 92px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-}
+
+
+
+
+
+
+
+
+
 
 
   
